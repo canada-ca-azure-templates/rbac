@@ -13,3 +13,5 @@ If you want to keep the resources created during the validation to inspect them 
 ```powershell
 .\validate.ps1 -doNotCleanup
 ```
+
+Departments must replace the principleId with a validate userid or groupid.  At this point there is no way to pull this from ARM.
